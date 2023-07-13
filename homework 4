@@ -1,1 +1,14 @@
+#include <stdio.h>
 
+int main() {
+    int a = 0;
+    printf("Enter a year :");
+    scanf ("%d",&a);
+    
+    if(a%4 == 0){
+        printf("%d Nahanj tari e:",a);
+    }else {
+        printf("%d Nahanj tari che:",a);
+    }
+    return 0;
+}
