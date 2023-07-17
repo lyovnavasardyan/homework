@@ -6,7 +6,7 @@
         scanf ("%d",&num);
         
         if ((num & (1<<4))==0){
-            num = 1;
+          num |= 1 << 4 ;
         }
         printf ("Updated value is %d",num);
         
