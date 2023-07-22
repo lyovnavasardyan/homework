@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+  int main () {
+      
+      char arr[3];
+      int i ;
+        
+      for (i = 0;i < 3;i++){
+          printf("Enter the values for array :");
+          scanf(" %c",&arr[i]);
+      }
+  
+          
+        printf ("Elements in array are : ");
+            for (i = sizeof(arr)-1;i < 3; i--){
+            printf(" %c",arr[i]);
+          
+        }
+     
+    return 0;
+  }
